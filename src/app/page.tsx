@@ -13,19 +13,17 @@ export default function Articles() {
           </h1>
         </div>
 
-        {/* 文章网格布局 */}
+        {/* 页面内容区域 */}
         <div className="flex flex-col gap-4">
           {ARTICLES.map((article) => (
-            <div key={article} className="article-card p-6">
+            <div
+              key={article}
+              className="article-card p-6 border border-border rounded-md"
+            >
               <Content slug={article} />
             </div>
           ))}
         </div>
-
-        {/* 页脚 */}
-        <footer className="mt-16 text-center text-muted-foreground text-sm">
-          <p>共 {ARTICLES.length} 篇文章</p>
-        </footer>
       </div>
     </div>
   );
