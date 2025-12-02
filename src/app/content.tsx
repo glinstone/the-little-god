@@ -4,6 +4,8 @@ import './content.css';
 
 import { useEffect, useState } from 'react';
 
+import { isProduction } from '@/utils/environment';
+
 export type ContentProps = {
   slug: string;
   showReadMore?: boolean;
@@ -51,7 +53,7 @@ export default function Content({ slug, showReadMore = true }: ContentProps) {
       {showReadMore && (
         <div className="mt-auto pt-2 border-t border-border">
           <a
-            href={`/articles/${slug}`}
+            href={`${isProduction ? '/the-little-god' : ''}/articles/${slug}`}
             className="read-more-link inline-flex items-center gap-1"
           >
             阅读全文
