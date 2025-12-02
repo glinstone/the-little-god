@@ -1,5 +1,6 @@
 {
   "name": "@glinstone/the-little-god",
+  "description": "山玉的专栏《小上帝》",
   "version": "0.0.1",
   "private": true,
   "scripts": {
