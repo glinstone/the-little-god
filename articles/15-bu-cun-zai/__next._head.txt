@@ -3,6 +3,6 @@
 4:I[96806,["/the-little-god/_next/static/chunks/8d1b14c2ea3fc192.js"],"MetadataBoundary"]
 5:"$Sreact.suspense"
 7:I[65609,["/the-little-god/_next/static/chunks/8d1b14c2ea3fc192.js"],"IconMark"]
-0:{"buildId":"R8Ch7brqEdOi-bS5kyjr7","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"mCvMZe12P2jvZVUkIOeLX","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 6:[["$","title","0",{"children":"山玉的专栏《小上帝》"}],["$","meta","1",{"name":"description","content":"你困了，你又不肯睡觉。当你困了又不肯睡觉的时候，你就变成一个比你自己更小的孩子。"}],["$","link","2",{"rel":"icon","href":"/the-little-god/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L7","3",{}]]
