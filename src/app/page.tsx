@@ -7,8 +7,8 @@ export default function Articles() {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* 页面标题区域 */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl text-foreground mb-4 tracking-tight">
+        <div className="text-center mb-8">
+          <h1 className="text-4xl text-foreground tracking-tight">
             山玉的专栏《小上帝》
           </h1>
         </div>

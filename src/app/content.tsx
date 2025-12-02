@@ -1,5 +1,7 @@
 'use client';
 
+import './content.css';
+
 import { useEffect, useState } from 'react';
 
 export type ContentProps = {
