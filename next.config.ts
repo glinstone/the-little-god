@@ -4,7 +4,14 @@ import type { NextConfig } from 'next';
 
 import createMDX from '@next/mdx';
 
+const isProduction = process.env.NODE_ENV === 'production';
+const baseUrl = '/the-little-god';
+
 const nextConfig: NextConfig = {
+  output: 'export',
+  basePath: isProduction ? baseUrl : undefined,
+  assetPrefix: isProduction ? baseUrl : undefined,
+  images: { unoptimized: true },
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
 };
 
