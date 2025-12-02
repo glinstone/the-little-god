@@ -1,8 +1,16 @@
+import { ARTICLES } from '@/data';
+
 import Content from '@/app/content';
 
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
+
+export async function generateStaticParams() {
+  return ARTICLES.map((slug) => ({
+    slug,
+  }));
+}
 
 export default async function Page({ params }: PageProps) {
   const { slug } = await params;
