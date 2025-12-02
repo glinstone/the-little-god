@@ -5,7 +5,7 @@ export const ARTICLES = [
   '4-zhang-lang', // 4.《蟑螂》
   '5-da-xing-xing-ren', // 5.《大猩猩人》
   '6-shang-di', // 6.《上帝》
-  '7-zhong-zhi', // 7.《学问》
+  '7-xue-wen', // 7.《学问》
   '8-jian-shang-jia', // 8.《鉴赏家》
   '9-shuo-fa', // 9.《说法》
   '10-li-wei-tan', // 10.《利维坦》
