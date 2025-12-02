@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[4701,["/the-little-god/_next/static/chunks/92b4ce32a5b56ab8.js"],"default"]
+3:I[96806,["/the-little-god/_next/static/chunks/8d1b14c2ea3fc192.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+:HL["/the-little-god/_next/static/chunks/303c8d594ee0197a.css","style"]
+0:{"buildId":"R8Ch7brqEdOi-bS5kyjr7","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-background","children":["$","div",null,{"className":"container mx-auto px-4 py-8 max-w-4xl","children":["$","$L2",null,{"slug":"11-qi-qiu","showReadMore":false}]}]}],[["$","link","0",{"rel":"stylesheet","href":"/the-little-god/_next/static/chunks/303c8d594ee0197a.css","precedence":"next"}],["$","script","script-0",{"src":"/the-little-god/_next/static/chunks/92b4ce32a5b56ab8.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
