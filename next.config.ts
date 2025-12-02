@@ -1,3 +1,5 @@
+import path from 'path';
+
 import type { NextConfig } from 'next';
 
 import createMDX from '@next/mdx';
@@ -8,6 +10,12 @@ const nextConfig: NextConfig = {
 
 const withMDX = createMDX({
   extension: /\.(md|mdx)$/,
+  options: {
+    remarkPlugins: [
+      path.join(process.cwd(), 'src/plugins/remark-single-line-paragraphs.cjs'),
+    ],
+    rehypePlugins: [],
+  },
 });
 
 export default withMDX(nextConfig);

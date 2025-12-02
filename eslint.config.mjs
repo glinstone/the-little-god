@@ -43,8 +43,6 @@ export default defineConfig(
     'next-env.d.ts',
   ]),
   {
-    // 忽略指定目录
-    ignores: ['src/services/**/api'],
     // 配置使用的插件
     plugins: {
       'simple-import-sort': simpleImportSort,
@@ -70,6 +68,7 @@ export default defineConfig(
             '*.js',
             'eslint.config.mjs',
             'postcss.config.mjs',
+            'src/plugins/remark-single-line-paragraphs.cjs',
           ],
         },
         tsconfigRootDir: import.meta.dirname,
